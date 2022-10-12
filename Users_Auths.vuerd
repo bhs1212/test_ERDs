@@ -78,7 +78,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -101,7 +101,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -143,7 +143,7 @@
           "active": false,
           "left": 52,
           "top": 41,
-          "zIndex": 142,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60
         },
@@ -163,7 +163,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -202,10 +202,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 19,
           "top": 374,
-          "zIndex": 144,
+          "zIndex": 3,
           "widthName": 85.60498046875,
           "widthComment": 67
         },
@@ -267,7 +267,7 @@
           "active": false,
           "left": 515.7835,
           "top": 193,
-          "zIndex": 119,
+          "zIndex": 1,
           "widthName": 60,
           "widthComment": 60
         },
