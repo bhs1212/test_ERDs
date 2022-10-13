@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -551.0000000000003,
-    "scrollLeft": -348.6666666666669,
+    "scrollTop": -539.3333333333328,
+    "scrollLeft": -420.33333333333314,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -206,23 +206,7 @@
               "widthDefault": 60
             },
             "id": "87aba9c8-19c7-4f6a-9221-e937c7442f5d"
-          }
-        ],
-        "ui": {
-          "active": false,
-          "left": 639,
-          "top": 624,
-          "zIndex": 179,
-          "widthName": 60,
-          "widthComment": 60
-        },
-        "visible": true,
-        "id": "ef0c3490-b0b8-4ba5-82cb-56f32a0d7050"
-      },
-      {
-        "name": "WRITER",
-        "comment": "작성자",
-        "columns": [
+          },
           {
             "name": "WRITER_UNIQUE_ID",
             "comment": "작성자 대표값",
@@ -244,42 +228,19 @@
               "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "85a18a10-6a14-40b4-ab85-f06417dfaee9"
-          },
-          {
-            "name": "POST_UNIQUE_ID",
-            "comment": "게시판 글 대표값",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": true,
-              "pfk": false,
-              "widthName": 105.87939453125,
-              "widthComment": 102.140625,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "b9a0bfcc-fd3f-4800-9966-d46854aad8ea"
+            "id": "ff122fb2-57df-484e-8179-0d38c3528bc1"
           }
         ],
         "ui": {
           "active": false,
-          "left": 647,
-          "top": 956,
-          "zIndex": 191,
+          "left": 622,
+          "top": 623,
+          "zIndex": 232,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
-        "id": "3fa4b37f-8a37-463f-8246-b018f8d2fea7"
+        "id": "ef0c3490-b0b8-4ba5-82cb-56f32a0d7050"
       },
       {
         "name": "WRITER_LIST",
@@ -357,9 +318,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 668,
-          "top": 1219,
-          "zIndex": 213,
+          "left": 634,
+          "top": 1118,
+          "zIndex": 230,
           "widthName": 76.70556640625,
           "widthComment": 71.5703125
         },
@@ -572,32 +533,6 @@
         "relationshipType": "OneN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "23402f24-0c05-4024-acbe-0879c2766e8f",
-          "columnIds": [
-            "436c86bb-284c-405a-b89b-74c65abbcf5a"
-          ],
-          "x": 883.700927734375,
-          "y": 1219,
-          "direction": "top"
-        },
-        "end": {
-          "tableId": "3fa4b37f-8a37-463f-8246-b018f8d2fea7",
-          "columnIds": [
-            "85a18a10-6a14-40b4-ab85-f06417dfaee9"
-          ],
-          "x": 871.486083984375,
-          "y": 1066,
-          "direction": "bottom"
-        },
-        "constraintName": "fk_writer_list_to_writer",
-        "visible": true,
-        "id": "63bb7c94-2bdc-4856-a7f1-5abdb7a41677"
-      },
-      {
-        "identification": false,
-        "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
-        "start": {
           "tableId": "baf0041f-cab3-42be-ac1b-c868748a3cd8",
           "columnIds": [
             "4de2201f-d133-4a9e-bb16-853653a1a4d8"
@@ -637,8 +572,8 @@
           "columnIds": [
             "384b2074-c679-4839-9a2f-2fb59d16b9b6"
           ],
-          "x": 856.510009765625,
-          "y": 624,
+          "x": 846.486083984375,
+          "y": 623,
           "direction": "top"
         },
         "constraintName": "fk_multi_board_to_board_write",
@@ -654,8 +589,8 @@
           "columnIds": [
             "87aba9c8-19c7-4f6a-9221-e937c7442f5d"
           ],
-          "x": 639,
-          "y": 730.25,
+          "x": 622,
+          "y": 739.5,
           "direction": "left"
         },
         "end": {
@@ -676,38 +611,12 @@
         "relationshipType": "OneN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "ef0c3490-b0b8-4ba5-82cb-56f32a0d7050",
-          "columnIds": [
-            "87aba9c8-19c7-4f6a-9221-e937c7442f5d"
-          ],
-          "x": 856.510009765625,
-          "y": 836.5,
-          "direction": "bottom"
-        },
-        "end": {
-          "tableId": "3fa4b37f-8a37-463f-8246-b018f8d2fea7",
-          "columnIds": [
-            "b9a0bfcc-fd3f-4800-9966-d46854aad8ea"
-          ],
-          "x": 871.486083984375,
-          "y": 956,
-          "direction": "top"
-        },
-        "constraintName": "fk_post_to_writer",
-        "visible": true,
-        "id": "376219b3-83fe-44c5-bec1-2a89e7b2c2eb"
-      },
-      {
-        "identification": false,
-        "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
-        "start": {
           "tableId": "23402f24-0c05-4024-acbe-0879c2766e8f",
           "columnIds": [
             "436c86bb-284c-405a-b89b-74c65abbcf5a"
           ],
-          "x": 668,
-          "y": 1284.25,
+          "x": 634,
+          "y": 1183.25,
           "direction": "left"
         },
         "end": {
@@ -722,6 +631,32 @@
         "constraintName": "fk_writer_list_to_comment",
         "visible": true,
         "id": "c3e54598-1b93-4ba6-a6c4-2a25abb3231c"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "23402f24-0c05-4024-acbe-0879c2766e8f",
+          "columnIds": [
+            "436c86bb-284c-405a-b89b-74c65abbcf5a"
+          ],
+          "x": 849.700927734375,
+          "y": 1118,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "ef0c3490-b0b8-4ba5-82cb-56f32a0d7050",
+          "columnIds": [
+            "ff122fb2-57df-484e-8179-0d38c3528bc1"
+          ],
+          "x": 846.486083984375,
+          "y": 856,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_writer_list_to_post",
+        "visible": true,
+        "id": "ef448d60-96df-40ae-9a25-d0f50cea143b"
       }
     ]
   }
